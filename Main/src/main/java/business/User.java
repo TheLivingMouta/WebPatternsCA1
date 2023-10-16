@@ -10,6 +10,7 @@ public class User {
   private String phone;
   private String firstname;
   private String lastname;
+  
 
   public User() {
   }
