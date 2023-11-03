@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e534e08f-bab4-4d8c-8c5e-6e10817be8a0" name="Changes" comment="Added User DTO">
-      <change beforePath="$PROJECT_DIR$/Main/src/main/java/business/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/main/java/business/User.java" afterDir="false" />
+    <list default="true" id="e534e08f-bab4-4d8c-8c5e-6e10817be8a0" name="Changes" comment="Added Daos">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d144fc3-ef37-40c8-8a87-5ce8e664c92d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d144fc3-ef37-40c8-8a87-5ce8e664c92d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,46 +22,80 @@
       <option value="directory" />
     </option>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="OranBrady &lt;oranbrady01@gmail.com&gt;" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OranBrady&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="dd7d13ea-1df6-49f2-9fce-2240e4581111" />
+        <option name="url" value="https://github.com/TheLivingMouta/WebPatternsCA1.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2WWNXY75gJlObHdWkLXvvFbGtrs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/student/OneDrive - Dundalk Institute of Technology/COLLEGE/Year 3/Web Patterns/IdeaProjects/Git/WebPatternsCA1/Main/src/main/java/business&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/oranb/OneDrive - Dundalk Institute of Technology/COLLEGE/Year 3/Web Patterns/IdeaProjects/WebPatternsCA1-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.16601562",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;6d144fc3-ef37-40c8-8a87-5ce8e664c92d/schema/\&quot;library\&quot;&quot;
+    "RunConfigurationTargetLRU": [
+      "6d144fc3-ef37-40c8-8a87-5ce8e664c92d/schema/\"library\""
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\student\OneDrive - Dundalk Institute of Technology\COLLEGE\Year 3\Web Patterns\IdeaProjects\Git\WebPatternsCA1\.idea" />
@@ -89,6 +128,9 @@
       <workItem from="1696851134048" duration="84000" />
       <workItem from="1696851237176" duration="3095000" />
       <workItem from="1697447453490" duration="2326000" />
+      <workItem from="1699010845871" duration="1840000" />
+      <workItem from="1699012689025" duration="424000" />
+      <workItem from="1699013113851" duration="2077000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -130,7 +172,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697451148567</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added User DTO">
+      <option name="closed" value="true" />
+      <created>1699014926254</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699014926254</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added User DTO">
+      <option name="closed" value="true" />
+      <created>1699014964958</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699014964958</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +199,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -152,6 +222,7 @@
     <MESSAGE value="Merge branch 'main' of https://github.com/TheLivingMouta/WebPatternsCA1" />
     <MESSAGE value="Added Book and Loan DTO" />
     <MESSAGE value="Added User DTO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added User DTO" />
+    <MESSAGE value="Added Daos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Daos" />
   </component>
 </project>
